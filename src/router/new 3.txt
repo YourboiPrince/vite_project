@@ -1,0 +1,17 @@
+								INTRODUCTION TO VUE.JS(3)
+
+Vue is a progressive Javascript Framework used for building user interfaces.
+Emphasizes simplicity, flexibility and performance.
+
+Primarily used for Creating User Interfaces.
+
+Why??
+	i) Easy Integration
+	ii) Minimal learning curve
+	iii) Provides reactive data binding and component-based architecture for building Scalable applications.
+	
+	Installation 
+npm init vite@latest	
+
+Options API (Object Based)
+Composition API (Function Based) ->New and Best way
