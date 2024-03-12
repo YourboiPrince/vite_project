@@ -1,14 +1,7 @@
-<!-- <script setup>
-const signup = async () => {
-    console.log(`{$username.value} {$email.value} {$password.value}`);
-    // save te value
-    axios.post('http://127.0.0.1:8000/api/signup', {})
-}
-</script> -->
 <template>
     <div>
       <h2>Sign Up</h2>
-      <form @submit.prevent="signup">
+      <form>
         <input type="text" placeholder="Enter username" v-model="username">
         <input type="email" placeholder="Enter email" v-model="email">
         <input type="password" placeholder="Enter password" v-model="password">

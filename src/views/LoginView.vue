@@ -49,6 +49,7 @@
     input[type="submit"]:hover {
       background-color: #5a1a8a;
     }
+    
   
     form {
       max-width: 300px;
