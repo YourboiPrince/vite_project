@@ -5,9 +5,9 @@ const count = ref(0);
 
 console.log(count);
 
-function increment() {
-  count.value++;
-}
+// function increment() {
+//   count.value++;
+// }
 </script>
 
 <template>
@@ -21,10 +21,10 @@ function increment() {
       <RouterLink class="nav-item" to="/signup">Signup</RouterLink>
     </div>
     <router-view></router-view>
-    <h1>Counter App</h1>
+    <!-- <h1>Counter App</h1>
 
     <button @click="increment">Increment</button>
-    <p>{{ count }}</p>
+    <p>{{ count }}</p> -->
   </div>
 </template>
 
